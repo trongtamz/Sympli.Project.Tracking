@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sympli.Project.Tracking.Domains</name>
+    </assembly>
+    <members>
+        <member name="P:Sympli.Project.Tracking.Domains.Requests.GetSeoMultipleEngineRequest.Keywords">
+            <summary>
+            Keywords (Default will be: e-settlements)
+            </summary>
+            <example></example>
+        </member>
+        <member name="P:Sympli.Project.Tracking.Domains.Requests.GetSeoMultipleEngineRequest.Url">
+            <summary>
+            Url (Default will be: https://www.sympli.com.au)
+            </summary>
+            <example></example>
+        </member>
+        <member name="P:Sympli.Project.Tracking.Domains.Requests.GetSeoRequest.Keywords">
+            <summary>
+            Keywords (Default will be: e-settlements)
+            </summary>
+            <example>e-settlements</example>
+        </member>
+        <member name="P:Sympli.Project.Tracking.Domains.Requests.GetSeoRequest.Url">
+            <summary>
+            Url (Default will be: https://www.sympli.com.au)
+            </summary>
+            <example>https://www.sympli.com.au</example>
+        </member>
+        <member name="P:Sympli.Project.Tracking.Domains.Requests.GetSeoRequest.SearchEngine">
+            <summary>
+            Search Engine (Default will be: Google)
+            </summary>
+            <example>Google</example>
+        </member>
+    </members>
+</doc>

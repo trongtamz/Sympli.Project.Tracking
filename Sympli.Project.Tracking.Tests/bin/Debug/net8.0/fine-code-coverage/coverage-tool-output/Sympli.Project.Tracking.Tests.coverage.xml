@@ -1,0 +1,2417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.7103" branch-rate="0.4537" version="1.9" timestamp="1725354887" lines-covered="515" lines-valid="725" branches-covered="49" branches-valid="108">
+  <sources>
+    <source>H:\Code\Study\sympli-project-tracking\Sympli.Project.Tracking\</source>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="Sympli.Project.Tracking.Applications" line-rate="0.375" branch-rate="0.3846" complexity="41">
+      <classes>
+        <class name="Sympli.Project.Tracking.Applications.ServiceCollectionExtensions" filename="Sympli.Project.Tracking.Applications\ServiceCollectionExtensions.cs" line-rate="0" branch-rate="0" complexity="10">
+          <methods>
+            <method name="AddApiServices" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="48" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="208" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="187" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AddHttpClient" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AddServices" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="65" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AddConfiguration" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AddInfrastructures" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="12" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="48" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="208" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="187" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Applications.SwaggerConventions" filename="Sympli.Project.Tracking.Applications\SwaggerConventions.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Apply" signature="(Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerModel)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.Extensions.Configuration.IConfiguration)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Applications.Services.SearchService" filename="Sympli.Project.Tracking.Applications\Services\SearchService.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="CountPositionBaseOnResult" signature="(System.Collections.Generic.IEnumerable`1&lt;System.String&gt;,System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="46" hits="5" branch="False" />
+                <line number="47" hits="5" branch="False" />
+                <line number="48" hits="205" branch="False" />
+                <line number="49" hits="205" branch="False" />
+                <line number="50" hits="8" branch="False" />
+                <line number="51" hits="5" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="113" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="55" hits="4" branch="False" />
+                <line number="56" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Net.Http.HttpClient,Microsoft.Extensions.Options.IOptionsMonitor`1&lt;Sympli.Project.Tracking.Domains.Configurations.SearchConfiguration&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="8" branch="False" />
+                <line number="18" hits="8" branch="False" />
+                <line number="19" hits="8" branch="False" />
+                <line number="20" hits="8" branch="False" />
+                <line number="21" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="46" hits="5" branch="False" />
+            <line number="47" hits="5" branch="False" />
+            <line number="48" hits="205" branch="False" />
+            <line number="49" hits="205" branch="False" />
+            <line number="50" hits="8" branch="False" />
+            <line number="51" hits="5" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="113" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="55" hits="4" branch="False" />
+            <line number="56" hits="5" branch="False" />
+            <line number="17" hits="8" branch="False" />
+            <line number="18" hits="8" branch="False" />
+            <line number="19" hits="8" branch="False" />
+            <line number="20" hits="8" branch="False" />
+            <line number="21" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Applications.Services.SearchService/&lt;SearchAsync&gt;d__3" filename="Sympli.Project.Tracking.Applications\Services\SearchService.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="24" hits="8" branch="False" />
+                <line number="25" hits="8" branch="False" />
+                <line number="26" hits="8" branch="False" />
+                <line number="27" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="220" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="3" branch="False" />
+                <line number="29" hits="3" branch="False" />
+                <line number="32" hits="5" branch="False" />
+                <line number="34" hits="5" branch="False" />
+                <line number="35" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="8" branch="False" />
+            <line number="25" hits="8" branch="False" />
+            <line number="26" hits="8" branch="False" />
+            <line number="27" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="220" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="3" branch="False" />
+            <line number="29" hits="3" branch="False" />
+            <line number="32" hits="5" branch="False" />
+            <line number="34" hits="5" branch="False" />
+            <line number="35" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Applications.Services.SearchService/&lt;SearchMultipleEngineAsync&gt;d__4" filename="Sympli.Project.Tracking.Applications\Services\SearchService.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Applications.Services.Base.ServiceBase" filename="Sympli.Project.Tracking.Applications\Services\Base\ServiceBase.cs" line-rate="0.7037" branch-rate="1" complexity="4">
+          <methods>
+            <method name="BuildResponse" signature="(T,System.Net.HttpStatusCode,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="3" branch="False" />
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="False" />
+                <line number="16" hits="3" branch="False" />
+                <line number="17" hits="3" branch="False" />
+                <line number="18" hits="3" branch="False" />
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="BuildSuccessResponse" signature="(T,System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="BuildSuccessResponse" signature="(T)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="5" branch="False" />
+                <line number="34" hits="5" branch="False" />
+                <line number="35" hits="5" branch="False" />
+                <line number="36" hits="5" branch="False" />
+                <line number="37" hits="5" branch="False" />
+                <line number="38" hits="5" branch="False" />
+                <line number="39" hits="5" branch="False" />
+                <line number="40" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="8" branch="False" />
+                <line number="9" hits="8" branch="False" />
+                <line number="10" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="3" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="17" hits="3" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="33" hits="5" branch="False" />
+            <line number="34" hits="5" branch="False" />
+            <line number="35" hits="5" branch="False" />
+            <line number="36" hits="5" branch="False" />
+            <line number="37" hits="5" branch="False" />
+            <line number="38" hits="5" branch="False" />
+            <line number="39" hits="5" branch="False" />
+            <line number="40" hits="5" branch="False" />
+            <line number="8" hits="8" branch="False" />
+            <line number="9" hits="8" branch="False" />
+            <line number="10" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Applications.QueryHandlers.GetSeoHandler" filename="Sympli.Project.Tracking.Applications\QueryHandlers\GetSeoHandler.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Sympli.Project.Tracking.Applications.Interfaces.ISearchService,Sympli.Project.Tracking.Infrastructures.Cache.Interfaces.ICacheService,Microsoft.Extensions.Options.IOptionsMonitor`1&lt;Sympli.Project.Tracking.Domains.Configurations.SearchConfiguration&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="25" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+                <line number="27" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="27" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Applications.QueryHandlers.GetSeoHandler/&lt;Handle&gt;d__4" filename="Sympli.Project.Tracking.Applications\QueryHandlers\GetSeoHandler.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="30" hits="3" branch="False" />
+                <line number="31" hits="3" branch="False" />
+                <line number="32" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="92" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="2" branch="False" />
+                <line number="34" hits="2" branch="False" />
+                <line number="35" hits="2" branch="False" />
+                <line number="37" hits="2" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="303" type="jump" coverage="100%" />
+                    <condition number="333" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="52" hits="2" branch="False" />
+                <line number="53" hits="2" branch="False" />
+                <line number="54" hits="2" branch="False" />
+                <line number="55" hits="2" branch="False" />
+                <line number="56" hits="2" branch="False" />
+                <line number="57" hits="2" branch="False" />
+                <line number="58" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="3" branch="False" />
+            <line number="31" hits="3" branch="False" />
+            <line number="32" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="92" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="33" hits="2" branch="False" />
+            <line number="34" hits="2" branch="False" />
+            <line number="35" hits="2" branch="False" />
+            <line number="37" hits="2" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="303" type="jump" coverage="100%" />
+                <condition number="333" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="52" hits="2" branch="False" />
+            <line number="53" hits="2" branch="False" />
+            <line number="54" hits="2" branch="False" />
+            <line number="55" hits="2" branch="False" />
+            <line number="56" hits="2" branch="False" />
+            <line number="57" hits="2" branch="False" />
+            <line number="58" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Applications.QueryHandlers.GetSeoMultipleEngineHandler" filename="Sympli.Project.Tracking.Applications\QueryHandlers\GetSeoMultipleEngineHandler.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Sympli.Project.Tracking.Applications.Interfaces.ISearchService,Sympli.Project.Tracking.Infrastructures.Cache.Interfaces.ICacheService,Microsoft.Extensions.Options.IOptionsMonitor`1&lt;Sympli.Project.Tracking.Domains.Configurations.SearchConfiguration&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Applications.QueryHandlers.GetSeoMultipleEngineHandler/&lt;&gt;c" filename="Sympli.Project.Tracking.Applications\QueryHandlers\GetSeoMultipleEngineHandler.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;Handle&gt;b__4_0" signature="(Sympli.Project.Tracking.Domains.Enums.SearchEngineEnum)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="31" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Applications.QueryHandlers.GetSeoMultipleEngineHandler/&lt;Handle&gt;d__4" filename="Sympli.Project.Tracking.Applications\QueryHandlers\GetSeoMultipleEngineHandler.cs" line-rate="0" branch-rate="0" complexity="10">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="30" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="146" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="602" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="42" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="423" type="jump" coverage="0%" />
+                    <condition number="453" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="56" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="662" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="146" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="602" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="42" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="423" type="jump" coverage="0%" />
+                <condition number="453" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="56" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="662" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Sympli.Project.Tracking.Domains" line-rate="0.4158" branch-rate="0.14279999999999998" complexity="64">
+      <classes>
+        <class name="Sympli.Project.Tracking.Domains.CommonUtils" filename="Sympli.Project.Tracking.Domains\CommonUtils.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GetDefaulGoogleSearch" signature="(System.String,System.String,System.Int32)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="6" hits="6" branch="False" />
+                <line number="7" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="8" hits="1" branch="False" />
+                <line number="9" hits="1" branch="False" />
+                <line number="11" hits="5" branch="False" />
+                <line number="12" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="GetDefaulBingSearch" signature="(System.String,System.String,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="22" branch="False" />
+                <line number="16" hits="22" branch="False" />
+                <line number="17" hits="22" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="6" branch="False" />
+            <line number="7" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="8" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="11" hits="5" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="15" hits="22" branch="False" />
+            <line number="16" hits="22" branch="False" />
+            <line number="17" hits="22" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Domains.JsonSerializeExtensions/&lt;TryReadContentAsString&gt;d__0" filename="Sympli.Project.Tracking.Domains\JsonSerializeExtensions.cs" line-rate="0.75" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.75" branch-rate="1" complexity="2">
+              <lines>
+                <line number="6" hits="25" branch="False" />
+                <line number="7" hits="25" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="43" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="8" hits="2" branch="False" />
+                <line number="9" hits="2" branch="False" />
+                <line number="12" hits="23" branch="False" />
+                <line number="14" hits="23" branch="False" />
+                <line number="15" hits="23" branch="False" />
+                <line number="16" hits="23" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="22" hits="25" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="25" branch="False" />
+            <line number="7" hits="25" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="43" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="8" hits="2" branch="False" />
+            <line number="9" hits="2" branch="False" />
+            <line number="12" hits="23" branch="False" />
+            <line number="14" hits="23" branch="False" />
+            <line number="15" hits="23" branch="False" />
+            <line number="16" hits="23" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="22" hits="25" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Domains.Responses.Response`1" filename="Sympli.Project.Tracking.Domains\Responses\Response.cs" line-rate="0.3333" branch-rate="0" complexity="13">
+          <methods>
+            <method name="get_Data" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="39" branch="False" />
+              </lines>
+            </method>
+            <method name="get_StatusCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="43" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="24" branch="False" />
+              </lines>
+            </method>
+            <method name="ToString" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="20" branch="False" />
+                <line number="20" hits="20" branch="False" />
+                <line number="21" hits="20" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="0%" />
+                    <condition number="51" type="jump" coverage="0%" />
+                    <condition number="82" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="18" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="39" branch="False" />
+            <line number="14" hits="43" branch="False" />
+            <line number="17" hits="24" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="19" hits="20" branch="False" />
+            <line number="20" hits="20" branch="False" />
+            <line number="21" hits="20" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="15" type="jump" coverage="0%" />
+                <condition number="51" type="jump" coverage="0%" />
+                <condition number="82" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="18" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Domains.Requests.GetSeoMultipleEngineRequest" filename="Sympli.Project.Tracking.Domains\Requests\GetSeoMultipleEngineRequest.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="get_Keywords" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Url" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SearchEngines" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Sympli.Project.Tracking.Domains.Requests.GetSeoMultipleEngineRequest,System.String,System.String)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="42" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="37" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="71" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="42" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="37" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="71" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="38" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Domains.Requests.GetSeoRequest" filename="Sympli.Project.Tracking.Domains\Requests\GetSeoRequest.cs" line-rate="0.6666" branch-rate="0.25" complexity="12">
+          <methods>
+            <method name="get_Keywords" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="42" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Url" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="35" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SearchEngine" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="40" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="11" branch="False" />
+                <line number="34" hits="11" branch="False" />
+                <line number="35" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Sympli.Project.Tracking.Domains.Requests.GetSeoRequest,System.String,System.String)" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="37" hits="2" branch="False" />
+                <line number="38" hits="2" branch="False" />
+                <line number="39" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="49" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="40" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="78" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="41" hits="2" branch="False" />
+                <line number="42" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Sympli.Project.Tracking.Domains.Requests.GetSeoMultipleEngineRequest,Sympli.Project.Tracking.Domains.Enums.SearchEngineEnum,System.String,System.String)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="49" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="47" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="78" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="42" branch="False" />
+            <line number="24" hits="35" branch="False" />
+            <line number="31" hits="40" branch="False" />
+            <line number="33" hits="11" branch="False" />
+            <line number="34" hits="11" branch="False" />
+            <line number="35" hits="11" branch="False" />
+            <line number="37" hits="2" branch="False" />
+            <line number="38" hits="2" branch="False" />
+            <line number="39" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="49" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="40" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="78" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="41" hits="2" branch="False" />
+            <line number="42" hits="2" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="49" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="47" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="78" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Domains.Configurations.SearchConfiguration" filename="Sympli.Project.Tracking.Domains\Configurations\SearchConfiguration.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_DefaultUserAgent" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="42" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DefaultKeyword" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="36" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DefaultUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="36" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DefaultTotalItem" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DefaultUrlSearchGoogle" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="40" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DefaultUrlSearchBing" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="56" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="42" branch="False" />
+            <line number="6" hits="36" branch="False" />
+            <line number="7" hits="36" branch="False" />
+            <line number="8" hits="32" branch="False" />
+            <line number="10" hits="40" branch="False" />
+            <line number="11" hits="56" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Domains.Attributes.NotEmptyAttribute" filename="Sympli.Project.Tracking.Domains\Attributes\NotEmptyAttribute.cs" line-rate="0" branch-rate="0" complexity="11">
+          <methods>
+            <method name="IsValid" signature="(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="20" hits="0" branch="True" condition-coverage="0% (0/8)">
+                  <conditions>
+                    <condition number="33" type="jump" coverage="0%" />
+                    <condition number="43" type="jump" coverage="0%" />
+                    <condition number="56" type="jump" coverage="0%" />
+                    <condition number="92" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="20" hits="0" branch="True" condition-coverage="0% (0/8)">
+              <conditions>
+                <condition number="33" type="jump" coverage="0%" />
+                <condition number="43" type="jump" coverage="0%" />
+                <condition number="56" type="jump" coverage="0%" />
+                <condition number="92" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Domains.Attributes.ValidUrlAttribute" filename="Sympli.Project.Tracking.Domains\Attributes\ValidUrlAttribute.cs" line-rate="0" branch-rate="0" complexity="9">
+          <methods>
+            <method name="IsValid" signature="(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="2" type="jump" coverage="0%" />
+                    <condition number="20" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="20" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="47" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="FormatErrorMessage" signature="(System.String,System.Object)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="2" type="jump" coverage="0%" />
+                <condition number="20" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="20" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="47" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="12" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Sympli.Project.Tracking.Infrastructures" line-rate="0.8321999999999999" branch-rate="0.8928" complexity="35">
+      <classes>
+        <class name="Sympli.Project.Tracking.Infrastructures.ServiceCollectionExtensions" filename="Sympli.Project.Tracking.Infrastructures\ServiceCollectionExtensions.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="AddEngineService" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AddCacheService" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Infrastructures.HttpClients.SearchEngineService" filename="Sympli.Project.Tracking.Infrastructures\HttpClients\SearchEngineService.cs" line-rate="0.8332999999999999" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="CreateSearchEngine" signature="(Sympli.Project.Tracking.Domains.Enums.SearchEngineEnum,System.Net.Http.HttpClient,Sympli.Project.Tracking.Domains.Configurations.SearchConfiguration)" line-rate="0.8332999999999999" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="11" hits="8" branch="False" />
+                <line number="12" hits="8" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="100%" />
+                    <condition number="12" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="4" branch="False" />
+                <line number="18" hits="4" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="23" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="8" branch="False" />
+            <line number="12" hits="8" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="6" type="jump" coverage="100%" />
+                <condition number="12" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="15" hits="4" branch="False" />
+            <line number="18" hits="4" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Infrastructures.HttpClients.SearchEngine.BingEngineService" filename="Sympli.Project.Tracking.Infrastructures\HttpClients\SearchEngine\BingEngineService.cs" line-rate="0.9117000000000001" branch-rate="0.875" complexity="9">
+          <methods>
+            <method name="GetInnerContent" signature="(System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="65" hits="20" branch="False" />
+                <line number="67" hits="20" branch="False" />
+                <line number="68" hits="20" branch="False" />
+                <line number="70" hits="20" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="25" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="71" hits="10" branch="False" />
+                <line number="73" hits="10" branch="False" />
+                <line number="74" hits="10" branch="False" />
+                <line number="77" hits="10" branch="False" />
+                <line number="78" hits="10" branch="False" />
+                <line number="80" hits="20" branch="False" />
+              </lines>
+            </method>
+            <method name="GetTagCites" signature="(System.Collections.Generic.IEnumerable`1&lt;System.String&gt;)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="83" hits="3" branch="False" />
+                <line number="84" hits="3" branch="False" />
+                <line number="86" hits="3" branch="False" />
+                <line number="87" hits="3" branch="False" />
+                <line number="89" hits="29" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="148" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="90" hits="10" branch="False" />
+                <line number="91" hits="10" branch="False" />
+                <line number="92" hits="228" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="115" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="93" hits="99" branch="False" />
+                <line number="94" hits="99" branch="False" />
+                <line number="95" hits="99" branch="False" />
+                <line number="96" hits="99" branch="False" />
+                <line number="97" hits="10" branch="False" />
+                <line number="99" hits="3" branch="False" />
+                <line number="100" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Net.Http.HttpClient,Sympli.Project.Tracking.Domains.Configurations.SearchConfiguration)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="20" hits="4" branch="False" />
+                <line number="21" hits="4" branch="False" />
+                <line number="22" hits="4" branch="False" />
+                <line number="23" hits="4" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="38" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="24" hits="4" branch="False" />
+                <line number="25" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="65" hits="20" branch="False" />
+            <line number="67" hits="20" branch="False" />
+            <line number="68" hits="20" branch="False" />
+            <line number="70" hits="20" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="25" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="71" hits="10" branch="False" />
+            <line number="73" hits="10" branch="False" />
+            <line number="74" hits="10" branch="False" />
+            <line number="77" hits="10" branch="False" />
+            <line number="78" hits="10" branch="False" />
+            <line number="80" hits="20" branch="False" />
+            <line number="83" hits="3" branch="False" />
+            <line number="84" hits="3" branch="False" />
+            <line number="86" hits="3" branch="False" />
+            <line number="87" hits="3" branch="False" />
+            <line number="89" hits="29" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="148" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="90" hits="10" branch="False" />
+            <line number="91" hits="10" branch="False" />
+            <line number="92" hits="228" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="115" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="93" hits="99" branch="False" />
+            <line number="94" hits="99" branch="False" />
+            <line number="95" hits="99" branch="False" />
+            <line number="96" hits="99" branch="False" />
+            <line number="97" hits="10" branch="False" />
+            <line number="99" hits="3" branch="False" />
+            <line number="100" hits="3" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="20" hits="4" branch="False" />
+            <line number="21" hits="4" branch="False" />
+            <line number="22" hits="4" branch="False" />
+            <line number="23" hits="4" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="38" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="24" hits="4" branch="False" />
+            <line number="25" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Infrastructures.HttpClients.SearchEngine.BingEngineService/&lt;GetContentBlock&gt;d__5" filename="Sympli.Project.Tracking.Infrastructures\HttpClients\SearchEngine\BingEngineService.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="28" hits="4" branch="False" />
+                <line number="29" hits="4" branch="False" />
+                <line number="30" hits="4" branch="False" />
+                <line number="31" hits="48" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="441" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="21" branch="False" />
+                <line number="33" hits="21" branch="False" />
+                <line number="34" hits="21" branch="False" />
+                <line number="35" hits="21" branch="False" />
+                <line number="37" hits="21" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="259" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="47" hits="20" branch="False" />
+                <line number="48" hits="20" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="361" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="49" hits="10" branch="False" />
+                <line number="50" hits="10" branch="False" />
+                <line number="51" hits="10" branch="False" />
+                <line number="52" hits="20" branch="False" />
+                <line number="54" hits="3" branch="False" />
+                <line number="56" hits="3" branch="False" />
+                <line number="57" hits="3" branch="False" />
+                <line number="58" hits="3" branch="False" />
+                <line number="59" hits="3" branch="False" />
+                <line number="60" hits="3" branch="False" />
+                <line number="61" hits="3" branch="False" />
+                <line number="62" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="28" hits="4" branch="False" />
+            <line number="29" hits="4" branch="False" />
+            <line number="30" hits="4" branch="False" />
+            <line number="31" hits="48" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="441" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="32" hits="21" branch="False" />
+            <line number="33" hits="21" branch="False" />
+            <line number="34" hits="21" branch="False" />
+            <line number="35" hits="21" branch="False" />
+            <line number="37" hits="21" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="259" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="47" hits="20" branch="False" />
+            <line number="48" hits="20" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="361" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="49" hits="10" branch="False" />
+            <line number="50" hits="10" branch="False" />
+            <line number="51" hits="10" branch="False" />
+            <line number="52" hits="20" branch="False" />
+            <line number="54" hits="3" branch="False" />
+            <line number="56" hits="3" branch="False" />
+            <line number="57" hits="3" branch="False" />
+            <line number="58" hits="3" branch="False" />
+            <line number="59" hits="3" branch="False" />
+            <line number="60" hits="3" branch="False" />
+            <line number="61" hits="3" branch="False" />
+            <line number="62" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Infrastructures.HttpClients.SearchEngine.GoogleEngineService" filename="Sympli.Project.Tracking.Infrastructures\HttpClients\SearchEngine\GoogleEngineService.cs" line-rate="0.9062" branch-rate="0.8332999999999999" complexity="7">
+          <methods>
+            <method name="GetInnerContent" signature="(System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="63" hits="3" branch="False" />
+                <line number="65" hits="3" branch="False" />
+                <line number="66" hits="3" branch="False" />
+                <line number="68" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="25" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="69" hits="2" branch="False" />
+                <line number="71" hits="2" branch="False" />
+                <line number="72" hits="2" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="78" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="GetTagHrefs" signature="(System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="81" hits="2" branch="False" />
+                <line number="82" hits="2" branch="False" />
+                <line number="85" hits="2" branch="False" />
+                <line number="86" hits="2" branch="False" />
+                <line number="88" hits="2" branch="False" />
+                <line number="89" hits="209" branch="False" />
+                <line number="90" hits="244" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="128" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="91" hits="119" branch="False" />
+                <line number="92" hits="119" branch="False" />
+                <line number="93" hits="119" branch="False" />
+                <line number="94" hits="119" branch="False" />
+                <line number="96" hits="2" branch="False" />
+                <line number="97" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Net.Http.HttpClient,Sympli.Project.Tracking.Domains.Configurations.SearchConfiguration)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="19" hits="4" branch="False" />
+                <line number="20" hits="4" branch="False" />
+                <line number="21" hits="4" branch="False" />
+                <line number="22" hits="4" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="38" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="23" hits="4" branch="False" />
+                <line number="24" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="63" hits="3" branch="False" />
+            <line number="65" hits="3" branch="False" />
+            <line number="66" hits="3" branch="False" />
+            <line number="68" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="25" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="69" hits="2" branch="False" />
+            <line number="71" hits="2" branch="False" />
+            <line number="72" hits="2" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="78" hits="3" branch="False" />
+            <line number="81" hits="2" branch="False" />
+            <line number="82" hits="2" branch="False" />
+            <line number="85" hits="2" branch="False" />
+            <line number="86" hits="2" branch="False" />
+            <line number="88" hits="2" branch="False" />
+            <line number="89" hits="209" branch="False" />
+            <line number="90" hits="244" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="128" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="91" hits="119" branch="False" />
+            <line number="92" hits="119" branch="False" />
+            <line number="93" hits="119" branch="False" />
+            <line number="94" hits="119" branch="False" />
+            <line number="96" hits="2" branch="False" />
+            <line number="97" hits="2" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="19" hits="4" branch="False" />
+            <line number="20" hits="4" branch="False" />
+            <line number="21" hits="4" branch="False" />
+            <line number="22" hits="4" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="38" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="23" hits="4" branch="False" />
+            <line number="24" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Infrastructures.HttpClients.SearchEngine.GoogleEngineService/&lt;GetContentBlock&gt;d__4" filename="Sympli.Project.Tracking.Infrastructures\HttpClients\SearchEngine\GoogleEngineService.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="27" hits="4" branch="False" />
+                <line number="28" hits="4" branch="False" />
+                <line number="29" hits="4" branch="False" />
+                <line number="30" hits="4" branch="False" />
+                <line number="32" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="215" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="42" hits="3" branch="False" />
+                <line number="43" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="314" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="53" hits="2" branch="False" />
+                <line number="54" hits="2" branch="False" />
+                <line number="55" hits="2" branch="False" />
+                <line number="56" hits="2" branch="False" />
+                <line number="57" hits="2" branch="False" />
+                <line number="58" hits="2" branch="False" />
+                <line number="59" hits="2" branch="False" />
+                <line number="60" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="4" branch="False" />
+            <line number="28" hits="4" branch="False" />
+            <line number="29" hits="4" branch="False" />
+            <line number="30" hits="4" branch="False" />
+            <line number="32" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="215" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="42" hits="3" branch="False" />
+            <line number="43" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="314" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="53" hits="2" branch="False" />
+            <line number="54" hits="2" branch="False" />
+            <line number="55" hits="2" branch="False" />
+            <line number="56" hits="2" branch="False" />
+            <line number="57" hits="2" branch="False" />
+            <line number="58" hits="2" branch="False" />
+            <line number="59" hits="2" branch="False" />
+            <line number="60" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Infrastructures.Cache.CacheService" filename="Sympli.Project.Tracking.Infrastructures\Cache\CacheService.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="TryGetValue" signature="(System.Object,TItem&amp;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Set" signature="(System.Object,TItem,Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.Extensions.Caching.Memory.IMemoryCache)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Sympli.Project.Tracking.Tests" line-rate="0.9963" branch-rate="0.6666" complexity="23">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="Users\trong\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.BaseUnitTest" filename="Sympli.Project.Tracking.Tests\BaseUnitTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="11" branch="False" />
+                <line number="12" hits="11" branch="False" />
+                <line number="13" hits="11" branch="False" />
+                <line number="14" hits="11" branch="False" />
+                <line number="15" hits="11" branch="False" />
+                <line number="16" hits="11" branch="False" />
+                <line number="17" hits="11" branch="False" />
+                <line number="18" hits="11" branch="False" />
+                <line number="19" hits="11" branch="False" />
+                <line number="20" hits="11" branch="False" />
+                <line number="21" hits="11" branch="False" />
+                <line number="22" hits="11" branch="False" />
+                <line number="23" hits="11" branch="False" />
+                <line number="24" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="11" branch="False" />
+            <line number="12" hits="11" branch="False" />
+            <line number="13" hits="11" branch="False" />
+            <line number="14" hits="11" branch="False" />
+            <line number="15" hits="11" branch="False" />
+            <line number="16" hits="11" branch="False" />
+            <line number="17" hits="11" branch="False" />
+            <line number="18" hits="11" branch="False" />
+            <line number="19" hits="11" branch="False" />
+            <line number="20" hits="11" branch="False" />
+            <line number="21" hits="11" branch="False" />
+            <line number="22" hits="11" branch="False" />
+            <line number="23" hits="11" branch="False" />
+            <line number="24" hits="11" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Services.SearchServiceTests.SearchAsyncByBingTest/&lt;SearchAsync_Expect_InvalidUrlSearch&gt;d__2" filename="Sympli.Project.Tracking.Tests\Services\SearchServiceTests\SearchAsyncByBingTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="87" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="95" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="100" hits="1" branch="False" />
+                <line number="101" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="70" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="80" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="95" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="100" hits="1" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Services.SearchServiceTests.SearchAsyncByBingTest/&lt;SearchAsync_Expect_NotFoundResultBlockSearch&gt;d__3" filename="Sympli.Project.Tracking.Tests\Services\SearchServiceTests\SearchAsyncByBingTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="107" hits="1" branch="False" />
+                <line number="109" hits="1" branch="False" />
+                <line number="110" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="112" hits="1" branch="False" />
+                <line number="113" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+                <line number="116" hits="1" branch="False" />
+                <line number="117" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="124" hits="1" branch="False" />
+                <line number="125" hits="1" branch="False" />
+                <line number="126" hits="1" branch="False" />
+                <line number="127" hits="1" branch="False" />
+                <line number="130" hits="1" branch="False" />
+                <line number="134" hits="1" branch="False" />
+                <line number="135" hits="1" branch="False" />
+                <line number="136" hits="1" branch="False" />
+                <line number="137" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="107" hits="1" branch="False" />
+            <line number="109" hits="1" branch="False" />
+            <line number="110" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+            <line number="113" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
+            <line number="116" hits="1" branch="False" />
+            <line number="117" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="124" hits="1" branch="False" />
+            <line number="125" hits="1" branch="False" />
+            <line number="126" hits="1" branch="False" />
+            <line number="127" hits="1" branch="False" />
+            <line number="130" hits="1" branch="False" />
+            <line number="134" hits="1" branch="False" />
+            <line number="135" hits="1" branch="False" />
+            <line number="136" hits="1" branch="False" />
+            <line number="137" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Services.SearchServiceTests.SearchAsyncByBingTest/&lt;SearchAsync_Expect_Success&gt;d__0" filename="Sympli.Project.Tracking.Tests\Services\SearchServiceTests\SearchAsyncByBingTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Services.SearchServiceTests.SearchAsyncByBingTest/&lt;SearchAsync_Expect_SuccessWithNoLimit&gt;d__1" filename="Sympli.Project.Tracking.Tests\Services\SearchServiceTests\SearchAsyncByBingTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="38" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Services.SearchServiceTests.SearchAsyncByGoogleTest/&lt;SearchAsync_Expect_InvalidUrlSearch&gt;d__2" filename="Sympli.Project.Tracking.Tests\Services\SearchServiceTests\SearchAsyncByGoogleTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="87" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="95" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="100" hits="1" branch="False" />
+                <line number="101" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="70" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="80" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="95" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="100" hits="1" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Services.SearchServiceTests.SearchAsyncByGoogleTest/&lt;SearchAsync_Expect_NotFoundResultBlockSearch&gt;d__3" filename="Sympli.Project.Tracking.Tests\Services\SearchServiceTests\SearchAsyncByGoogleTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="107" hits="1" branch="False" />
+                <line number="109" hits="1" branch="False" />
+                <line number="110" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="112" hits="1" branch="False" />
+                <line number="113" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+                <line number="116" hits="1" branch="False" />
+                <line number="117" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="124" hits="1" branch="False" />
+                <line number="125" hits="1" branch="False" />
+                <line number="126" hits="1" branch="False" />
+                <line number="127" hits="1" branch="False" />
+                <line number="128" hits="1" branch="False" />
+                <line number="129" hits="1" branch="False" />
+                <line number="132" hits="1" branch="False" />
+                <line number="136" hits="1" branch="False" />
+                <line number="137" hits="1" branch="False" />
+                <line number="138" hits="1" branch="False" />
+                <line number="139" hits="1" branch="False" />
+                <line number="140" hits="1" branch="False" />
+                <line number="141" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="107" hits="1" branch="False" />
+            <line number="109" hits="1" branch="False" />
+            <line number="110" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+            <line number="113" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
+            <line number="116" hits="1" branch="False" />
+            <line number="117" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="124" hits="1" branch="False" />
+            <line number="125" hits="1" branch="False" />
+            <line number="126" hits="1" branch="False" />
+            <line number="127" hits="1" branch="False" />
+            <line number="128" hits="1" branch="False" />
+            <line number="129" hits="1" branch="False" />
+            <line number="132" hits="1" branch="False" />
+            <line number="136" hits="1" branch="False" />
+            <line number="137" hits="1" branch="False" />
+            <line number="138" hits="1" branch="False" />
+            <line number="139" hits="1" branch="False" />
+            <line number="140" hits="1" branch="False" />
+            <line number="141" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Services.SearchServiceTests.SearchAsyncByGoogleTest/&lt;SearchAsync_Expect_Success&gt;d__0" filename="Sympli.Project.Tracking.Tests\Services\SearchServiceTests\SearchAsyncByGoogleTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Services.SearchServiceTests.SearchAsyncByGoogleTest/&lt;SearchAsync_Expect_SuccessWithNoLimit&gt;d__1" filename="Sympli.Project.Tracking.Tests\Services\SearchServiceTests\SearchAsyncByGoogleTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="38" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Queries.SearchQueryHandlerTests/&lt;&gt;c" filename="Sympli.Project.Tracking.Tests\Queries\SearchQueryHandlerTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;SearchQueryHandler_Expect_SuccessWithCachedMemory&gt;b__1_1" signature="(System.Object,System.String&amp;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="72" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Queries.SearchQueryHandlerTests/&lt;SearchQueryHandler_Expect_SearchFailure&gt;d__2" filename="Sympli.Project.Tracking.Tests\Queries\SearchQueryHandlerTests.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="89" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="93" hits="1" branch="False" />
+                <line number="94" hits="1" branch="False" />
+                <line number="95" hits="1" branch="False" />
+                <line number="96" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="101" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="105" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+                <line number="107" hits="1" branch="False" />
+                <line number="108" hits="1" branch="False" />
+                <line number="109" hits="1" branch="False" />
+                <line number="110" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="113" hits="1" branch="False" />
+                <line number="116" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+                <line number="122" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="726" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="123" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="915" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="124" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="89" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="93" hits="1" branch="False" />
+            <line number="94" hits="1" branch="False" />
+            <line number="95" hits="1" branch="False" />
+            <line number="96" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="105" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="107" hits="1" branch="False" />
+            <line number="108" hits="1" branch="False" />
+            <line number="109" hits="1" branch="False" />
+            <line number="110" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="113" hits="1" branch="False" />
+            <line number="116" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+            <line number="122" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="726" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="123" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="915" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="124" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Queries.SearchQueryHandlerTests/&lt;SearchQueryHandler_Expect_SuccessWithCachedMemory&gt;d__1" filename="Sympli.Project.Tracking.Tests\Queries\SearchQueryHandlerTests.cs" line-rate="1" branch-rate="0.5" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="58" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="616" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="84" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="805" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="85" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="58" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+            <line number="80" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="616" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="84" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="805" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="85" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Sympli.Project.Tracking.Tests.Queries.SearchQueryHandlerTests/&lt;SearchQueryHandler_Expect_SuccessWithNoCachedFound&gt;d__0" filename="Sympli.Project.Tracking.Tests\Queries\SearchQueryHandlerTests.cs" line-rate="1" branch-rate="0.5" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="891" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="53" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="1080" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="54" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="891" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="53" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="1080" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="54" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
